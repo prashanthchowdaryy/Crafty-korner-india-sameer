@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Shop manager | Crafty Korner India</title>
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" href="/favicon-32.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+<section id="login" class="login" hidden>
+  <img src="/logo-mark.png" alt="Crafty Korner India">
+  <h2 id="lt">Shop manager</h2><p id="ls">Log in to manage your products.</p>
+  <form id="lf"><label><span id="ll">Password</span><input type="password" id="pw" autocomplete="current-password" required></label>
+  <p class="err" id="le" role="alert"></p><button class="btn gold" style="width:100%;justify-content:center" id="lb">Log in</button></form>
+</section>
+
+<div id="app" hidden>
+  <header class="bar"><img src="/logo-mark.png" alt=""><h1>Crafty Korner India<small>Shop manager</small></h1>
+    <details class="menu" id="mn"><summary>Menu</summary><div class="mm"><a href="/" target="_blank" rel="noopener">View website</a><button id="chpw">Change password</button><button id="out">Log out</button></div></details></header>
+  <main>
+    <nav class="tabs"><button type="button" id="tp" class="on">Products</button><button type="button" id="te">Enquiries <span id="ec"></span></button></nav>
+    <section id="pv">
+    <div class="tools"><input type="search" id="q" placeholder="Search products" aria-label="Search products">
+      <select id="fc" aria-label="Category"><option value="">All categories</option></select>
+      <select id="fs" aria-label="Status"><option value="">All statuses</option></select>
+      <button class="btn gold" id="new">+ Add product</button><a class="btn ghost" href="/api/excel">Download Excel</a><button class="btn ghost" id="xup">Upload Excel</button><input type="file" id="xfile" accept=".xlsx" hidden></div>
+    <p class="note" id="np" hidden></p>
+    <p class="count" id="cnt"></p><div class="list" id="list"></div>
+    </section>
+    <section id="ev" hidden><p class="count" id="ecnt"></p><div class="list" id="elist"></div></section>
+  </main>
+</div>
+
+<div id="dr" hidden>
+  <div class="scrim" id="scrim"></div>
+  <aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="dt">
+    <header><h2 id="dt">Add product</h2><button class="btn ghost sm" type="button" id="x" aria-label="Close">Close</button></header>
+    <form id="f">
+      <b>Photos</b><p class="hint">The first photo is the main one shown on the shop. Portrait photos look best.</p>
+      <div class="photos" id="photos"></div><input type="file" id="file" accept="image/*" multiple hidden>
+      <label>Name<input type="text" id="name" maxlength="120" required></label>
+      <div class="two"><label>Category<select id="cat" required></select></label>
+        <label>Status<select id="st"></select></label></div>
+      <p class="hint" style="margin-top:-.4rem">Sold shows a “Sold” tag. Hidden removes the product from the website.</p>
+      <div class="two"><label>Price (₹)<input type="number" id="price" min="0" step="1" inputmode="numeric"></label>
+        <label class="chk"><input type="checkbox" id="sp"> Show price on website</label></div>
+      <p class="hint">If the price is not shown, customers see “Price on request”.</p>
+      <label>Material <small>(e.g. Carved wood, brass inlay)</small><input type="text" id="mat" maxlength="160"></label>
+      <div class="two"><label>Age <small>(antiques)</small><input type="text" id="era" maxlength="120"></label><label>Size<input type="text" id="size" maxlength="120" placeholder="e.g. 18 x 18 x 24 in"></label></div>
+      <label>Description<textarea id="desc" rows="6" maxlength="4000"></textarea></label>
+      <p class="err" id="fe" role="alert"></p>
+    </form>
+    <footer><button class="btn ghost" type="button" id="cancel">Cancel</button><button class="btn gold" id="save" form="f">Save and publish</button></footer>
+  </aside>
+</div>
+
+<dialog id="dd"><h3 id="ddt">Delete product?</h3><p id="ddp"></p><menu><button class="btn ghost" value="no" form="df">Keep it</button><button class="btn danger" id="ddy">Delete product</button></menu><form method="dialog" id="df"></form></dialog>
+<dialog id="pd"><h3>Change password</h3><form id="pf"><label>Current password<input type="password" id="po" autocomplete="current-password" required></label><label>New password <small>(10+ characters)</small><input type="password" id="pn" autocomplete="new-password" minlength="10" required></label><p class="err" id="pe"></p>
+<menu><button class="btn ghost" type="button" id="pc">Cancel</button><button class="btn gold">Save password</button></menu></form></dialog>
+
+<script src="/admin/admin.js" defer></script>
+</body>
+</html>

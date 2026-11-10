@@ -1,0 +1,13 @@
+# secrets and private data: never upload these to GitHub
+.env
+admin_config.json
+enquiries.json
+enquiries/
+backups/
+_build/
+_trash/
+_upload.xlsx
+.xlsx_stamp
+__pycache__/
+*.pyc
+nohup.out

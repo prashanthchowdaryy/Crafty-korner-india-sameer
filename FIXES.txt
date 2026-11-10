@@ -1,0 +1,8 @@
+WHAT WAS FIXED IN THIS VERSION
+1. Giant black circle / unstyled icons: icons can never blow up to full size now (safety rule in style.css). Pages also load style.css/script.js with a version tag so an old cached copy cannot be mixed with the new pages.
+2. Old copy still running on port 8000: app.py now stops with a clear message instead of silently leaving the old site on screen. Close the old black window, then run run.bat again.
+3. .env.example: the https settings (COOKIE_SECURE, FORCE_HTTPS, TRUST_PROXY) are now OFF by default. Left ON, they break http://localhost:8000 and the admin login on your own computer.
+4. SITE_URL in .env is now really used (it was ignored; the domain was fixed to virasat.in in build.py). Set SITE_URL=https://your-real-domain in .env before going live so canonical links, sitemap and Google data use your domain.
+5. run.bat / update.bat: work from any folder, check that Python is installed, show errors instead of closing, and open the browser only after the server has started.
+6. Logo: stray letter fragments under the elephant (logo-mark.png) removed.
+7. Admin: a price such as "abc" is now rejected with a message instead of silently saved as empty.

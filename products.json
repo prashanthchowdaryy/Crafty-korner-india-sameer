@@ -1,0 +1,320 @@
+[
+ {
+  "id": "p001",
+  "name": "Set of four inlay stools",
+  "category": "Furniture",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Carved wood, brass and coloured inlay",
+  "era": "",
+  "size": "",
+  "description": "A set of four square stools in graduated inlay patterns, each top set with a different star or floral design and finished with a brass edge. Use them as seats, side tables or a display stand.",
+  "photo": "inlay-stools-set.jpg",
+  "more": [
+   "inlay-stools-set-2.jpg",
+   "inlay-stools-set-3.jpg"
+  ]
+ },
+ {
+  "id": "p002",
+  "name": "Mosaic glass lantern lamps",
+  "category": "Home Décor",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Mosaic glass, wooden base",
+  "era": "",
+  "size": "",
+  "description": "Hand-assembled lantern lamps in coloured mosaic glass on a wooden base. Lit, they throw a warm, patterned glow, and they look best on a console or bedside table.",
+  "photo": "mosaic-glass-lamps.jpg",
+  "more": []
+ },
+ {
+  "id": "p003",
+  "name": "Inlay lidded round box",
+  "category": "Handicrafts",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Polished wood, inlay",
+  "era": "",
+  "size": "",
+  "description": "A round lidded box in polished wood with a leaf-and-vine inlay on the lid and a turned wooden knob. A useful piece for dry fruits, snacks or small keepsakes, and a good gift.",
+  "photo": "inlay-lidded-round-box.jpg",
+  "more": [
+   "inlay-lidded-round-box-2.jpg"
+  ]
+ },
+ {
+  "id": "p004",
+  "name": "Carved keepsake box with brass latch",
+  "category": "Handicrafts",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Carved wood, brass latch",
+  "era": "",
+  "size": "",
+  "description": "A hand-carved wooden box with a brass latch and a carved front and lid, shown here on an inlay round table. It keeps jewellery, papers and small treasures.",
+  "photo": "carved-keepsake-box.jpg",
+  "more": []
+ },
+ {
+  "id": "p005",
+  "name": "Nested square serving trays",
+  "category": "Handicrafts",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Wood, metal inlay",
+  "era": "",
+  "size": "",
+  "description": "A nested set of square wooden trays, each with a metal medallion inlay at the centre and cut-out handles. Use them together for serving or stack them away when not in use.",
+  "photo": "nested-square-trays.jpg",
+  "more": [
+   "nested-square-trays-2.jpg"
+  ]
+ },
+ {
+  "id": "p006",
+  "name": "Carved wooden wall clocks",
+  "category": "Home Décor",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Carved wood frame",
+  "era": "",
+  "size": "",
+  "description": "Round wall clocks in carved wooden frames, with patterned dials in gold, cream and dark finishes. Pick the dial and frame that suit your wall.",
+  "photo": "carved-wall-clocks.jpg",
+  "more": [
+   "carved-wall-clocks-2.jpg"
+  ]
+ },
+ {
+  "id": "p007",
+  "name": "Carved wall brackets and mirror frames",
+  "category": "Home Décor",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Carved wood, metal",
+  "era": "",
+  "size": "",
+  "description": "Carved wall brackets, jharokha-style mirror frames and small shelves for hanging in a hall or entrance. Many sizes and patterns are in the shop.",
+  "photo": "carved-wall-brackets.jpg",
+  "more": []
+ },
+ {
+  "id": "p008",
+  "name": "Carved side tables",
+  "category": "Furniture",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Carved wood",
+  "era": "",
+  "size": "",
+  "description": "Square side tables with carved tops and turned legs. They suit a sofa side, a bedside or a pooja corner.",
+  "photo": "carved-side-tables.jpg",
+  "more": []
+ },
+ {
+  "id": "p009",
+  "name": "Nested round wooden trays",
+  "category": "Handicrafts",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Wood",
+  "era": "",
+  "size": "",
+  "description": "Round wooden trays in graduated sizes with a dark, hand-polished finish. Use them for serving, for display or as a base for candles and diyas.",
+  "photo": "nested-round-trays.jpg",
+  "more": []
+ },
+ {
+  "id": "p010",
+  "name": "Inlay round platter",
+  "category": "Handicrafts",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Wood, inlay",
+  "era": "",
+  "size": "",
+  "description": "A round wooden platter with a floral inlay across the top and a shallow dish at the centre. It works for serving and as a table piece.",
+  "photo": "inlay-round-platter.jpg",
+  "more": []
+ },
+ {
+  "id": "p011",
+  "name": "Carved console table",
+  "category": "Antiques",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Dark polished wood",
+  "era": "",
+  "size": "",
+  "description": "A dark polished console table with a carved apron, turned front legs and a lower stretcher. Place it in a hall or entrance. Ask us about its age and history when you visit.",
+  "photo": "carved-console-table.jpg",
+  "more": [
+   "carved-console-table-2.jpg",
+   "carved-console-table-3.jpg"
+  ]
+ },
+ {
+  "id": "p012",
+  "name": "Cane-back settee",
+  "category": "Antiques",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Wood, cane, upholstered seat",
+  "era": "",
+  "size": "",
+  "description": "A two-seat settee with a woven cane back, a padded green seat and slim turned legs. Ask us about its age and history when you visit.",
+  "photo": "cane-back-settee.jpg",
+  "more": []
+ },
+ {
+  "id": "p013",
+  "name": "Canopy jhoola seat",
+  "category": "Antiques",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Wood and iron, canopy top",
+  "era": "",
+  "size": "",
+  "description": "A traditional jhoola-style seat with an iron canopy, ready for a veranda, courtyard or large living room. Ask us about its age and history when you visit.",
+  "photo": "canopy-jhoola-seat.jpg",
+  "more": []
+ },
+ {
+  "id": "p014",
+  "name": "Hand-turned wooden goblets",
+  "category": "Handicrafts",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Solid wood",
+  "era": "",
+  "size": "",
+  "description": "A pair of goblets turned from solid wood with a smooth natural finish and a stable base. They make a distinctive gift set.",
+  "photo": "wooden-goblets.jpg",
+  "more": [
+   "wooden-goblets-2.jpg",
+   "wooden-goblets-3.jpg",
+   "wooden-goblets-4.jpg"
+  ]
+ },
+ {
+  "id": "p015",
+  "name": "Painted wooden serving tray",
+  "category": "Handicrafts",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Wood, painted and lacquered",
+  "era": "",
+  "size": "",
+  "description": "A long serving tray with raised ends and a carved, painted pattern across the base. Good for tea, snacks and gifting.",
+  "photo": "painted-serving-tray.jpg",
+  "more": []
+ },
+ {
+  "id": "p016",
+  "name": "Carved square stools",
+  "category": "Furniture",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Carved wood",
+  "era": "",
+  "size": "",
+  "description": "Square stools with deeply carved tops in floral and geometric patterns. Each pattern is different, so pick the one you like.",
+  "photo": "carved-square-stools.jpg",
+  "more": [
+   "carved-square-stools-2.jpg"
+  ]
+ },
+ {
+  "id": "p017",
+  "name": "Brass-studded square tables",
+  "category": "Furniture",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Carved wood, brass studs",
+  "era": "",
+  "size": "",
+  "description": "Square tables with carved geometric tops dotted with brass studs. They come in several patterns and can be made in your size.",
+  "photo": "brass-studded-square-tables.jpg",
+  "more": [
+   "brass-studded-square-tables-2.jpg"
+  ]
+ },
+ {
+  "id": "p018",
+  "name": "Inlay rectangular tray",
+  "category": "Handicrafts",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Wood, bone-look inlay",
+  "era": "",
+  "size": "",
+  "description": "A rectangular wooden tray with a pierced border and a star-pattern inlay at the centre. Use it for serving or hang it as wall decor.",
+  "photo": "inlay-rectangular-tray.jpg",
+  "more": []
+ },
+ {
+  "id": "p019",
+  "name": "Wood-finish steel mug",
+  "category": "Handicrafts",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Steel, wood-finish body",
+  "era": "",
+  "size": "",
+  "description": "A mug with a wood-finish outer body, a steel lining and a comfortable handle, printed with a morning message. A simple gift for tea and coffee drinkers.",
+  "photo": "wood-finish-steel-mug.jpg",
+  "more": [
+   "wood-finish-steel-mug-2.jpg"
+  ]
+ },
+ {
+  "id": "p020",
+  "name": "Charminar glass showpiece",
+  "category": "Home Décor",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Glass, metal",
+  "era": "",
+  "size": "",
+  "description": "A Charminar model under a glass dome on a lit base, in two sizes. A souvenir of Hyderabad and a popular gift.",
+  "photo": "charminar-glass-showpiece.jpg",
+  "more": [
+   "charminar-glass-showpiece-2.jpg"
+  ]
+ },
+ {
+  "id": "p021",
+  "name": "Floral carved wooden panel",
+  "category": "Handicrafts",
+  "status": "Available",
+  "price": null,
+  "show_price": false,
+  "material": "Carved wood",
+  "era": "",
+  "size": "",
+  "description": "A square piece carved by hand with a flowing floral pattern and a central flower. Hung as wall art or made into a box lid or table top to order.",
+  "photo": "floral-carved-panel.jpg",
+  "more": []
+ }
+]
